@@ -1,0 +1,319 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}	
+p {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+}
+a {
+    transition: all 0.5s ease;
+}
+a, a:hover, a:active, a:focus, input, input:hover, input:focus, button, button:hover, button:focus{
+	outline: none;
+	text-decoration: none;
+}
+h2{
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343333;
+}
+.btn{
+	color: #fdfcfc;
+	letter-spacing: 0.02em;
+	font-size: 15px;
+	font-weight: 700;
+	background: #b95d20;
+	width: 230px;
+	height: 57px;
+	border-radius: 20px;	
+	box-shadow: 0px 4px 20px 0px rgba(185, 93, 32, 0.75);
+	letter-spacing: 0.01em
+}
+.btn:hover{
+	background: #fdfcfc;
+	border: 1px solid  #b95d20;
+	color: #b95d20;
+}
+.btn:hover, .btn:active, .btn:focus{
+	box-shadow: none;
+}
+
+
+/*-----   First screen    -----*/
+
+
+
+.header{
+	padding: 35px 0 58px 0;
+	background: #33343f url('../img/background.png') no-repeat center;
+	background-size: cover;
+	color: #fff;
+}
+.top-bar{
+	display: flex;
+    align-items: center;
+}
+.menu__item{
+	margin-left: 49px;
+}
+.menu__item a{
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0 3px 7px;
+}
+.menu__item a:hover{
+	padding-bottom: 5px;
+    border-bottom: 2px solid #c66627;}
+.offer{
+	margin-top: 153px;
+	margin-right: 24px;
+}
+.offer__title{
+	font-size: 36px;
+	font-weight: 700;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+.offer__text{
+	font-size: 16px;
+	width: 550px;
+    margin: 0 auto;
+    line-height: 1.3em;
+    margin-bottom: 27px;
+}
+.social{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 46px 0px 0 30px;
+}
+.social:after{
+	content: "";
+	height: 70px;
+	width: 1px;
+	border: 1px solid #fff;
+	margin-top: 10px;
+}
+
+
+/*-----   Second screen    -----*/
+
+
+.about{
+	padding-top: 83px;
+	padding-bottom: 84px;
+}
+.about__card{
+	width: 100%;
+}
+.about__title{
+	margin-bottom: 55px;
+}
+.about__subtitle{
+	color: #343333;
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 32px;
+	margin-bottom: 12px;
+	width: 90%;
+}
+.about__text{
+	color: #5d5d5d;
+	font-size: 15px;
+	line-height: 1.4em;
+	width: 90%;
+}
+.about__card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+.about__overlay{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 128px;
+    margin-top: 7px;
+}
+.about__overlay_dogs{
+	background: url(../img/dogs-black.png) no-repeat;
+}
+.about__overlay_footprint{
+	background: url(../img/footprint-black.png) no-repeat;
+}
+.about__overlay_heart{
+	background: url(../img/heart-black.png) no-repeat;
+	margin-top: 13px;
+}
+
+
+/*-----   Third screen    -----*/
+.our{
+	padding-bottom: 90px;
+}
+.dog{
+	margin-top: 53px;
+	display: flex;
+}
+.dog__content{
+	margin: 23px 0 0 31px;
+}
+.dog__name{
+	color: #343333;
+	font-size: 25px;
+	font-weight: 700;
+}
+.dog__param{
+	margin-top: 18px;
+	font-size: 18px;
+	font-weight: 600;
+	width: 190px;
+    line-height: 1.5em;
+    margin-bottom: 17px;
+}
+.dog__text{
+	font-size: 15px;
+	color: #5d5d5d;
+	margin-bottom: 10px;
+}
+
+
+
+/*-----   Forth screen    -----*/
+.help{
+    padding-top: 84px;
+    background: #e7e6e6;
+    padding-bottom: 70px;
+}
+.help__title{
+	margin-bottom: 47px;
+}
+.help__subtitle{
+	color: #343333;
+	font-size: 25px;
+	font-weight: 700;
+}
+.help__content{
+	font-size: 15px;
+	color: #5d5d5d;
+	margin-top: 12px;
+	line-height: 1.6em;
+}
+.help__item{
+	margin-bottom: 18px;	
+}
+.form{
+	text-align: center;
+}
+.form__title{
+	color: #343333;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.form__input, .form__btn{
+	height: 85px;
+	width: 100%;
+}
+.form__input{
+	border: none;
+	border-radius: 25px;
+	background-color: #fbfbfb;
+	margin-bottom: 25px;
+	padding-left: 47px;
+	box-shadow: 0 6px 13px 0 #cdcccc;
+}
+.form__input::placeholder{
+	color: #7f7f7f;
+	font-size: 14px;
+}
+
+/*-----   Fifth screen    -----*/
+.contact{
+	padding-top: 85px;
+	padding-bottom: 90px;
+}
+.contact__title{
+	margin-bottom: 46px;
+}
+.contact__item{
+	margin-bottom: 23px;
+}
+.contact__subtitle{
+	color: #343333;
+	font-size: 25px;
+	font-weight: 700;
+}
+.contact__info{
+	font-size: 15px;
+	color: #5d5d5d;
+	margin-top: 15px;
+	width: 304px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact__info_adress{
+	width: 560px;
+}
+.contact__logo{
+	margin-top: 37px;
+}
+
+
+/*-----   Footer screen    -----*/
+
+.footer{
+	background: #343333;
+	color: #fdfcfc;
+	padding-top: 34px;
+	padding-bottom: 42px;
+}
+.rights__logo{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	display: flex;
+    align-items: baseline;
+    margin-bottom: 13px;
+}
+.rights__logo img{
+	margin-right: 10px;
+}
+.rights__text{
+	font-size: 17px;
+}
+.social-media{
+	display: flex;
+    justify-content: flex-end;
+    padding-top: 27px;
+}
+.social-wrapper{
+	display: flex;
+    justify-content: space-between;
+	width: 130px;
+}
+.social-media img{
+	margin-right: 7px;
+}
